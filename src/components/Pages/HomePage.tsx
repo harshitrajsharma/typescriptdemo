@@ -12,7 +12,6 @@ import Footer from "../Footer";
 export default function HomePage() {
   return (
     <div className="bg-[#121921] text-white">
-      <Navbar />
       <Hero />
       <Explore />
       <Variety />
