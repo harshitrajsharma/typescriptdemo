@@ -3,7 +3,7 @@ import SellerPage from "@/components/Pages/SellerPage";
 
 
 
-export default function() {
+export default function sellrPage() {
     return (
         <div>
             <SellerPage />

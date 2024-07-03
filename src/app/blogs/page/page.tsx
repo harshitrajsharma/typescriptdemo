@@ -1,7 +1,7 @@
 import BlogReadingPage from "@/components/Pages/BlogReadingPage";
 
 
-export default function() {
+export default function InPage() {
     return (
       <>
       <BlogReadingPage />

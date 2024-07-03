@@ -3,7 +3,7 @@ import IdeasPage from "@/components/Pages/IdeasPage";
 
 
 
-export default function() {
+export default function IPage() {
   return (
     <>
     <IdeasPage />

@@ -3,7 +3,7 @@ import DashboardPage from "@/components/Pages/DashboardPage";
 
 
 
-export default function() {
+export default function DPage() {
     return (
         <div>
             <DashboardPage />

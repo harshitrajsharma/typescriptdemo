@@ -2,7 +2,7 @@
 import HowToSellPage from "@/components/Pages/HowToSellPage";
 
 
-export default function() {
+export default function HPage() {
   return (
     <>
     <HowToSellPage />
