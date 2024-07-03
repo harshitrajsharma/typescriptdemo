@@ -82,8 +82,7 @@ const Registration = () => {
 
           <div className="flex items-center space-x-2">
             <input type="checkbox" id="agreement" className="form-checkbox" />
-            <label htmlFor="agreement"><p>
-            I agree to CodeStam's Seller Agreement, Privacy Policy, and other Terms.</p></label>
+            <label htmlFor="agreement">I agree to CodeStam&apos;s Seller Agreement, Privacy Policy, and other Terms.</label>
           </div>
 
           <div className="flex space-x-4 justify-end">

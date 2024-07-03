@@ -5,6 +5,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { FaBold, FaImage, FaItalic } from "react-icons/fa6";
 import { MdEmojiEmotions, MdGif } from "react-icons/md";
 import CommentCard from "./comment-card";
+import Image from "next/image";
 
 
 const commentData = [
@@ -79,7 +80,7 @@ const BlogContent = ({ author_name, blog_title, blog_des, blog_date }: any) => {
                 <p className=" text-gray-400">written by {author_name}</p>
 
                 <div className=" w-full ">
-                    <img src="/blogBanner.png" alt="banner" className=" w-full rounded-xl aspect-video" />
+                    <Image src="/blogBanner.png" alt="banner" className=" w-full rounded-xl aspect-video" />
                 </div>
                 <p className=" text-gray-300">{blog_des}</p>
 
@@ -161,7 +162,7 @@ const BlogContent = ({ author_name, blog_title, blog_des, blog_date }: any) => {
             <div className=" w-full h-full relative">
                 <textarea name="comment" id="comment" placeholder=" Write your thoughts" className="bg-[#172933] rounded-xl w-full min-h-[200px] h-auto pl-20 py-8 pb-20"></textarea>
                 <div className=" w-[5%] flex rounded-full justify-center " >
-                    <img src={user_profile} alt="profile" className=" w-12 h-12 rounded-full absolute top-4 left-4" />
+                    <Image src={user_profile} alt="profile" className=" w-12 h-12 rounded-full absolute top-4 left-4" />
                 </div>
                 <div className="flex gap-4 scale-125 absolute bottom-8 right-8">
                 <FaImage />

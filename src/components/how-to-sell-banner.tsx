@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 export default function HowToSellBanner() {
@@ -6,7 +7,7 @@ export default function HowToSellBanner() {
 
             <div className=" bg-center max-h-[650px] rounded-xl flex justify-center">
 
-                <img src="./howtosell.png" alt="banner" className=" w-full " />
+                <Image src="./howtosell.png" alt="banner" className=" w-full " />
 
             </div>
 

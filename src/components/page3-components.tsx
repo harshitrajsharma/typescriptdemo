@@ -1,3 +1,4 @@
+import Image from "next/image"
 import ProductReview from "./ProductReview"
 import VarietyCard from "./VarietyCard"
 import RatingComponent from "./rating-component"
@@ -76,7 +77,7 @@ const Specdata = [
 function ProductCard({ image }: any) {
     return (
         <div>
-            <img src={image} alt="product" className=" rounded-xl" />
+            <Image src={image} alt="product" className=" rounded-xl" />
         </div>
     )
 }
@@ -101,7 +102,7 @@ export default function Page3Hero() {
 
             <div className=" bg-center max-h-[650px] rounded-xl flex justify-center">
 
-                <img src="./video.png" alt="banner" className=" w-full rounded-xl " />
+                <Image src="./video.png" alt="banner" className=" w-full rounded-xl " />
 
             </div>
 

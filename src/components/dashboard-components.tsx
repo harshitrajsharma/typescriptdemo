@@ -1,3 +1,4 @@
+import Image from "next/image";
 import StatsCard from "./StatsCard";
 
 
@@ -51,10 +52,10 @@ export default function DashboardComponents() {
 
             <div className=" flex flex-col md:flex-row gap-4 w-full">
                 <div className=" md:w-[50%]">
-                    <img className=" w-full h-full" src="/graph1.png" alt="stats" />
+                    <Image className=" w-full h-full" src="/graph1.png" alt="stats" />
                 </div>
                 <div className=" md:w-[50%]">
-                    <img className=" w-full h-full" src="/graph2.png" alt="stats" />
+                    <Image className=" w-full h-full" src="/graph2.png" alt="stats" />
                 </div>
             </div>
 

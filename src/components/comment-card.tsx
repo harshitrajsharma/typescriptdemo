@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { AiOutlineLike } from "react-icons/ai";
 import { AiOutlineDislike } from "react-icons/ai";
 
@@ -6,7 +7,7 @@ const CommentCard = ({ author_name, profile_img, comment, timestamp, like_count,
     return (
         <div className="flex gap-2">
             <div className=" w-[25%] md:w-[15%] lg:w-[5%]  rounded-full " >
-                <img src={profile_img} alt="profile" className=" w-full rounded-full" />
+                <Image src={profile_img} alt="profile" className=" w-full rounded-full" />
             </div>
 
             <div className=" flex flex-col gap-3">
