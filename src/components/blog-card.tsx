@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 export default function BlogCard({ title, tag, des, banner }: any) {
@@ -16,7 +17,7 @@ export default function BlogCard({ title, tag, des, banner }: any) {
                 </div>
 
                 <div className=" md:w-[30%]">
-                    <img src={banner} alt="banner" className=" h-full w-full object-cover rounded-lg" />
+                    <Image src={banner} alt="banner" className=" h-full w-full object-cover rounded-lg" />
                 </div>
 
             </div>

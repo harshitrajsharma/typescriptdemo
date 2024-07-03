@@ -48,8 +48,8 @@ const SellPageDetails = () => {
 
             <h1 className=" text-xl md:text-2xl lg:text-4xl mt-8">Key Requirements</h1>
             {
-                Reqdata.map((data) => {
-                    return <RequirementsCard title1={data.title1} des1={data.des1} title2={data.title2} des2={data.des2} />
+                Reqdata.map((data, index) => {
+                    return <RequirementsCard key={index} title1={data.title1} des1={data.des1} title2={data.title2} des2={data.des2} />
                 })
 
             }
@@ -57,8 +57,8 @@ const SellPageDetails = () => {
 
             <h1 className=" text-xl md:text-2xl lg:text-4xl mt-8">Tips for Success</h1>
             {
-                TipsData.map((data) => {
-                    return <RequirementsCard title1={data.title1} des1={data.des1} title2={data.title2} des2={data.des2} />
+                TipsData.map((data, index) => {
+                    return <RequirementsCard key={index} title1={data.title1} des1={data.des1} title2={data.title2} des2={data.des2} />
                 })
 
             }
